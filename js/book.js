@@ -17,6 +17,7 @@ const displayResul = books=>{
         div.classList.add('col');
         div.innerHTML=`
         <div class="card">
+        <img width="200px" src=https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg class="card-img-top" alt="...">
         <div class="card-body">
         <p class="card-text">${book.title}</p>
         <h5 class="card-title">Author Name:${book.author_name}</h5>
