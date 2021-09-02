@@ -37,6 +37,7 @@ else{
             <div class="card-body">
             <h3 class="card-text">Book Name:${book.title}</h3>
             <h5 class="card-title">Author Name:${book.author_name}</h5>
+            <h6>Publisher:${book.publisher}</h6>
             <p class="card-text">Published:${book.publish_year}</p>
             </div>
           </div>
