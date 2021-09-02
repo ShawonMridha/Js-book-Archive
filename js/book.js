@@ -7,7 +7,7 @@ const searchBook=()=>{
     if(searchText==''){
         document.getElementById('notfound').innerText='serch field cannot be empty';
 }
-      const url = (`http://openlibrary.org/search.json?q=${searchText}`)
+      const url = (`https://openlibrary.org/search.json?q=${searchText}`)
         fetch(url)
         .then(response=>response.json())
         .then(data=>displayResul(data.docs))
