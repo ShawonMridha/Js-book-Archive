@@ -15,10 +15,10 @@ const searchBook=()=>{
    
       // books show
 const displayResul = books=>{
-  document.getElementById('result').innerText=`Total books:${books.length}`
+  document.getElementById('result').innerText=`Total Books:${books.length}`
   
 if(books.length==0){
-  document.getElementById('error-message').innerText='Not Result Found'
+  document.getElementById('error-message').innerText='No Result Found'
 }
 else{
   document.getElementById('error-message').innerText="";
@@ -44,8 +44,6 @@ else{
             `;
             searchResult.appendChild(div)
         })
-        
-     
 }
 
 
